@@ -35,7 +35,7 @@ flask run
         (1 for each compound id) from the data in input file as-
         - LC.xlsx
         - LPC.xlsx
-        - plasmologin.xlsx
+        - plasmalogen.xlsx
 - ### `POST /roundoff`
         This will add a new column in the parent dataset with the name “Retention Time Roundoff (in mins)”. This column should have 
         rounded-off values of the corresponding retention time. Retention time should be rounded-off to the nearest natural number.
