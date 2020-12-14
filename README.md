@@ -36,6 +36,7 @@ flask run
         - LC.xlsx
         - LPC.xlsx
         - plasmalogen.xlsx
+        Also download then after completion of backend process.
 - ### `POST /roundoff`
         This will add a new column in the parent dataset with the name “Retention Time Roundoff (in mins)”. This column should have 
         rounded-off values of the corresponding retention time. Retention time should be rounded-off to the nearest natural number.
