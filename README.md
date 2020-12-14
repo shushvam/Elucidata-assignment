@@ -31,12 +31,14 @@ flask run
 - ### `POST /upload`
         This will show the uploaded file.
 - ### `POST /filter`
-        This will filter out all the data for metabolite ids ending with:‘PC’, ‘LPC’ and ‘plasmalogen’, and create 3 child datasets (1 for each compound id) from the data in input file as-
+        This will filter out all the data for metabolite ids ending with:‘PC’, ‘LPC’ and ‘plasmalogen’, and create 3 child datasets
+        (1 for each compound id) from the data in input file as-
         - LC.xlsx
         - LPC.xlsx
         - plasmologin.xlsx
 - ### `POST /roundoff`
-        This will add a new column in the parent dataset with the name “Retention Time Roundoff (in mins)”. This column should have rounded-off values of the corresponding retention time. Retention time should be rounded-off to the nearest natural number.
+        This will add a new column in the parent dataset with the name “Retention Time Roundoff (in mins)”. This column should have 
+        rounded-off values of the corresponding retention time. Retention time should be rounded-off to the nearest natural number.
         Download the file roundoff.xlsx after completeion of backend process.
  - ### `POST /mean`
         This will find the mean of all the metabolites according to condition provided
